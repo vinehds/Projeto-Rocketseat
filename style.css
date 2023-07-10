@@ -42,7 +42,8 @@ body * {
 }
 /*ajustando a div conteiner*/
 .container {
-  width: 360px;
+  width: 100%;
+  max-width: 720px;
   margin: auto;
 }
 /*ajustando o profile*/
