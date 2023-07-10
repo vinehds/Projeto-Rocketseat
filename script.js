@@ -1,0 +1,14 @@
+function toggleMode() {
+  const html = document.documentElement
+
+  html.classList.toggle("light")
+
+  //pegar a tag image
+  const img = document.querySelector("#profile img")
+
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/perfil-light.png")
+  } else {
+    img.setAttribute("src", "./assets/pf.png")
+  }
+}
